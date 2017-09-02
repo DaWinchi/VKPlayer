@@ -8,3 +8,13 @@ E:\Projects\VKPlayer\obj\Debug\VKPlayer.csproj.GenerateResource.Cache
 E:\Projects\VKPlayer\obj\Debug\VKPlayer.exe
 E:\Projects\VKPlayer\obj\Debug\VKPlayer.pdb
 E:\Projects\VKPlayer\obj\Debug\VKPlayer.Auth.resources
+E:\Programming\Projects\VKPlayer\bin\Debug\VKPlayer.exe.config
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.exe
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.pdb
+E:\Programming\Projects\VKPlayer\bin\Debug\VKPlayer.exe
+E:\Programming\Projects\VKPlayer\bin\Debug\VKPlayer.pdb
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.csprojResolveAssemblyReference.cache
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.Auth.resources
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.Player.resources
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.Properties.Resources.resources
+E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.csproj.GenerateResource.Cache
