@@ -18,3 +18,6 @@ E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.Auth.resources
 E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.Player.resources
 E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.Properties.Resources.resources
 E:\Programming\Projects\VKPlayer\obj\Debug\VKPlayer.csproj.GenerateResource.Cache
+E:\Programming\Projects\VKPlayer\bin\Debug\Newtonsoft.Json.dll
+E:\Programming\Projects\VKPlayer\bin\Debug\Newtonsoft.Json.pdb
+E:\Programming\Projects\VKPlayer\bin\Debug\Newtonsoft.Json.xml

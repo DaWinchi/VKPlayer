@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,9 +17,22 @@ namespace VKPlayer
 {
     public partial class Player : Form
     {
+        public List<Audio> audiolist;
         public Player()
         {
             InitializeComponent();
+        }
+
+        public class Audio
+        {
+            public int aid { get; set; }
+            public int owner_id { get; set; }
+            public string artist { get; set; }
+            public string title { get; set; }
+            public int duration { get; set; }
+            public string url { get; set; }
+            public string lurics_id { get; set; }
+            public int genre { get; set; }
         }
 
         private void Player_Load(object sender, EventArgs e)
@@ -40,6 +54,17 @@ namespace VKPlayer
             reader.Close();
             response.Close();
             responseFromServer = HttpUtility.HtmlDecode(responseFromServer);
+
+            JToken token = JToken.Parse(responseFromServer);
+            audiolist = token["response"].Children().Skip(1).Select(c => c.ToObject<Audio>()).ToList();
+
+            this.Invoke((MethodInvoker)delegate 
+            {
+                for (int i=0; i<audiolist.Count();i++)
+                  {
+                      PlayList.Items.Add(audiolist[i].artist+" - "+audiolist[i].title);
+                   }
+            });
         }
     }
 }
